@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function startTimer() {
         timerInterval = setInterval(() => {
             seconds = seconds + 10;
-            timerElement.textContent = `Tempo: ${seconds}ss`;
+            timerElement.textContent = `Tempo: ${seconds}ms`;
         }, 10);
     }
     
