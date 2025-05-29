@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let seconds = 0;
     
     // Emoji da utilizzare come simboli delle carte
-    const symbols = ['🍎', '🍌', '🍒', '🍓', '🍋', '🥝', '🍉', '🥭',':)','0_0','&#x1F608','&#x1F61C'];
+    const symbols = ['🍎', '🍌', '🍒', '🍓', '🍋', '🥝', '🍉', '🥭',':)','0_0','0><0','Q-Q','😈','🤑'];
     
     // Inizializza il gioco
     function initGame() {
@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Avvia il timer
     function startTimer() {
         timerInterval = setInterval(() => {
-            seconds++;
+            seconds = seconds + 10;
             timerElement.textContent = `Tempo: ${seconds}s`;
         }, 10);
     }

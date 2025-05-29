@@ -19,7 +19,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(164, 129, 247, 0.692);
     padding: 20px;
-    max-width: 600px;
+    max-width: 1000px;
     width: 100%;
 }
 
@@ -47,12 +47,12 @@ h1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
 }
 
 .card {
-    height: 80px;
+    height: 100px;
     background-color: #9286ff;
     border-radius: 5px;
     cursor: pointer;
@@ -99,6 +99,6 @@ h1 {
     }
     
     .card {
-        height: 70px;
+        height: 140px;
     }
 }
