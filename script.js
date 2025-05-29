@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let seconds = 0;
     
     // Emoji da utilizzare come simboli delle carte
-    const symbols = ['🍎', '🍌', '🍒', '🍓', '🍋', '🥝', '🍉', '🥭',':)','0_0','&#128520','&#128540'];
+    const symbols = ['🍎', '🍌', '🍒', '🍓', '🍋', '🥝', '🍉', '🥭',':)','0_0','&#x1F608','&#x1F61C'];
     
     // Inizializza il gioco
     function initGame() {
@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
         timerInterval = setInterval(() => {
             seconds++;
             timerElement.textContent = `Tempo: ${seconds}s`;
-        }, 1000);
+        }, 10);
     }
     
     // Gestisce il click sul pulsante di restart
